@@ -1,5 +1,9 @@
 # Custom defense code generation (experimental)
 
+The detailed research protocol is [EXPERIMENT_DESIGN.md](../../EXPERIMENT_DESIGN.md),
+with adversarial review decisions in [DESIGN_REVIEW.md](../../DESIGN_REVIEW.md).
+Its planned selection, acceptance and evaluation gates extend beyond this prototype.
+
 This prototype asks the **OpenAI Responses API** to write actual defensive C
 statements and inserts them at the beginning of a selected function body or
 nested compound statement. It is an external source transformation tool, **not
